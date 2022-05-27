@@ -33,8 +33,6 @@
 
 // console.log(myFuntion("abcd", 1));
 
-
-
 // Escribir una función que tome una cadena (a) como argumento
 // Eliminar los primeros 3 caracteres de un
 // Devuelve el resultado
@@ -52,3 +50,30 @@
 //     return str.slice(-3)
 // }
 // console.log(myFuntion('abcdefg'));
+
+// Escribir una función que tome una cadena (a) como argumento
+// Obtener los primeros 3 caracteres de un
+// Devuelve el resultado
+
+// function myFunction(a) {
+//   return a.slice(0, 3);
+// }
+// console.log(myFunction('abcdefg'))
+
+// Escribir una función que tome una cadena (a) como argumento
+// Extrae la primera mitad de un
+// Devuelve el resultado
+
+// function myFunction(a) {
+//   return a.slice(0, a.length / 2);
+// }
+//  console.log(myFunction('1234'))
+
+// Escribir una función que tome una cadena (a) como argumento
+// Eliminar los últimos 3 caracteres de un
+// Devuelve el resultado
+
+function myFunction(a) {
+  return a.slice(0, - 3)
+}
+console.log(myFunction('abcdefg'))
