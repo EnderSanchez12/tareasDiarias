@@ -73,7 +73,34 @@
 // Eliminar los últimos 3 caracteres de un
 // Devuelve el resultado
 
-function myFunction(a) {
-  return a.slice(0, - 3)
-}
-console.log(myFunction('abcdefg'))
+// function myFunction(a) {
+//   return a.slice(0, - 3)
+// }
+// console.log(myFunction('abcdefg'))
+
+// Escribe una función que tome dos números (a y b) como argumento
+// Devuelve b por ciento de a
+
+// function myFunction(a, b) {
+//   return b / 100 * a;
+// }
+// console.log(myFunction(10,1))
+
+// Escribe una función que tome 6 valores (a,b,c,d,e,f) como argumentos
+// Suma a y b
+// Luego restamos por c
+// Luego multiplica por d y divide por e
+// Finalmente elevamos a la potencia de f y devolvemos el resultado
+
+// function myFunction(a, b, c, d, e, f) {
+//   return (((a + b - c) * d) / e )** f;
+// }
+// console.log(myFunction(6,2,1,4,2,3))
+
+// Escribir una función que tome un número como argumento
+// Si el número es par, devuelve verdadero
+// De lo contrario, devuelve falso
+
+// const myFunction = (a) => a % 2 == 0 
+
+// console.log(myFunction(14));
