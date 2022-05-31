@@ -149,12 +149,10 @@
 
 // function myFunction(a) {
 //     return Array.from(String(a), Number)
-    
+
 // }
 
 // console.log(myFunction(123456));
-
-
 
 // Escribir una función que tome una matriz (a) y un valor (n) como argumento
 // Devuelve el n-ésimo elemento de 'a'
@@ -163,3 +161,62 @@
 //     return a [n -1]
 // }
 // console.log(myFunction([10,9,8,7,6],5))
+
+// Escribir una función que tome una matriz (a) como argumento
+// Elimina los primeros 3 elementos de 'a'
+// Devuelve el resultado
+
+// function myFunction() {
+
+//     return
+// }
+// console.log(myFunction())
+
+// function myFunction(a) {
+//   return a.slice(3);
+// }
+// console.log(myFunction([1, 2, 3, 4]));
+
+// Escribir una función que tome una matriz (a) como argumento
+// Extraer los últimos 3 elementos de un
+// Devuelve la matriz resultante
+
+// function myFunction(a) {
+//   return a.slice(-3)
+// }
+// console.log(myFunction([1, 2, 3, 4]));
+
+// Escribir una función que tome una matriz (a) como argumento
+// Extrae los primeros 3 elementos de un
+// Devuelve la matriz resultante
+
+// function myFunction(a) {
+//   return a.slice(0, 3);
+// }
+// console.log(myFunction([5, 4, 3, 2, 1, 0]));
+
+// Escribe una función que tome una matriz (a) y un número (n) como argumentos
+// Debería devolver los últimos n elementos de un
+
+// function myFunction(a, n) {
+//   return a.slice(-n);
+// }
+// console.log(myFunction([1, 2, 3, 4, 5], 2));
+
+// Escribir una función que tome una matriz (a) y un valor (b) como argumento
+// La función debe limpiar a de todas las apariciones de b
+// Devuelve la matriz filtrada
+
+// function myFunction(a, b) {
+//   return a.filter(x=>x !==b);
+// }
+// console.log(myFunction([1,2,'2'], '2'));
+
+
+// Escribir una función que tome una matriz (a) como argumento
+// Devuelve el número de elementos en un
+
+function myFunction(a) {
+  return a.length
+}
+console.log(myFunction([1,2,'2']));
