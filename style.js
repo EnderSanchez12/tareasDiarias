@@ -166,12 +166,6 @@
 // Elimina los primeros 3 elementos de 'a'
 // Devuelve el resultado
 
-// function myFunction() {
-
-//     return
-// }
-// console.log(myFunction())
-
 // function myFunction(a) {
 //   return a.slice(3);
 // }
@@ -212,11 +206,70 @@
 // }
 // console.log(myFunction([1,2,'2'], '2'));
 
-
 // Escribir una función que tome una matriz (a) como argumento
 // Devuelve el número de elementos en un
 
-function myFunction(a) {
-  return a.length
+// function myFunction(a) {
+//   return a.length
+// }
+// console.log(myFunction([1,2,'2']));
+
+// Parece que algo le pasó a estas cadenas
+// ¿Puedes descubrir cómo aclarar el caos?
+// Escriba una función que una estas cadenas de modo que formen las siguientes palabras:
+// 'Javascript', 'Campo' y 'Centro'
+// Es posible que desee aplicar métodos básicos de cadena JS como replace(), split(), slice(), etc.
+
+// function myFunction(a, b) {
+//   arr1 = b
+//     .split("")
+//     .reverse()
+//     .join("")
+//     .replace(/[^a-zA-Z ]/g, "");
+//   arr2 = a.concat(arr1).replace(/[^a-zA-Z ]/g, "");
+//   return `'${arr2.slice(0, 1).toUpperCase()}${arr2.slice(1)}'`;
+// }
+// console.log(myFunction("c%ountry", "edis"));
+
+// Escribir una función que tome una matriz de números como argumento
+// Devuelve el número de valores negativos en la
+
+// function myFunction(a) {
+//   return a.filter((n) => n < 0).length;
+// }
+// console.log(myFunction([4,-3,2,1,0]))
+
+// Escribir una función que tome una matriz de cadenas como argumento
+// Ordenar alfabéticamente los elementos de la matriz
+// Devuelve el resultado
+
+// function myFunction(a) {
+//   return a.sort();
+// }
+// // console.log(myFunction(['b', 'c', 'd', 'a']))
+
+// Escribir una función que tome una matriz de números como argumento
+// Debería devolver el promedio de los números
+
+// function myFunction(arr) {
+//   arr.reduce(a, (b) => a + b) / arr.length;
+// }
+// console.log(myFunction([-50, 0, 50, 200]));
+
+// Escribir una función que tome un objeto con dos propiedades como argumento
+// Debe devolver el valor de la propiedad con clave país
+
+// function myFunction(obj) {
+//     return obj.country
+// }
+// console.log(myFunction({  continent: 'Asia',  country: 'Japan'}))
+
+// Write a function that takes an array of strings as argument
+// Return the longest string
+
+function myFunction(arr) {
+
+  let maxLng = Math.max(...arr.map( elem => elem.length))
+  return arr.filter( x=> x.length === maxLng)
 }
-console.log(myFunction([1,2,'2']));
+console.log(myFunction(['help', 'me']))
